@@ -1,0 +1,19 @@
+App Engine 911 Site
+Looking for volunteers interested in building an appengine 911 site. The idea is simply this: 
+
+A user in distress calls the centre. 
+The call operator picks up the call and logs the details including 'geolocation'. 
+The system figures out all policemen close to the caller and fires a text to them.
+
+To my mind the components will essentially be:
+a simple screen for logging in calls WITH locations
+a maps page showing two layers
+	* layer one shows distress areas
+	* layer two shows locations of police officers
+a backend code that figures out officers close to the distress areas and sends them an sms
+
+
+Most of the code will be in appengine python, however GWT would be helpful for the UI and javascript would be helpful for the maps layering and any AJAX stuff.
+
+
+Any volunteers ?
